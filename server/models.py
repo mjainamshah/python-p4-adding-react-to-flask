@@ -14,3 +14,6 @@ class Message(db.Model, SerializerMixin):
 
     def __repr__(self):
         return f'<Message by {self.username}: {self.body[:10]}...>'
+
+
+# ABOVE IS MY models.py
